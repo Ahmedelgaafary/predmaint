@@ -1,0 +1,69 @@
+{
+ "protocol": "temporal",
+ "n_train": 513,
+ "n_test": 118,
+ "test_counts": {
+  "normal": 10,
+  "outer_race": 36,
+  "inner_race": 36,
+  "ball": 36
+ },
+ "models": {
+  "generic_spectrum": [
+   {
+    "macro_f1": 0.9834174477289113,
+    "ball_recall": 1.0
+   },
+   {
+    "macro_f1": 0.9834174477289113,
+    "ball_recall": 1.0
+   },
+   {
+    "macro_f1": 0.9834174477289113,
+    "ball_recall": 1.0
+   }
+  ],
+  "generic_envelope": [
+   {
+    "macro_f1": 0.9834174477289113,
+    "ball_recall": 1.0
+   },
+   {
+    "macro_f1": 0.9834174477289113,
+    "ball_recall": 1.0
+   },
+   {
+    "macro_f1": 0.9834174477289113,
+    "ball_recall": 1.0
+   }
+  ],
+  "physics_orders": [
+   {
+    "macro_f1": 0.9834174477289113,
+    "ball_recall": 1.0
+   },
+   {
+    "macro_f1": 0.9834174477289113,
+    "ball_recall": 1.0
+   },
+   {
+    "macro_f1": 0.9834174477289113,
+    "ball_recall": 1.0
+   }
+  ],
+  "cnn": [
+   {
+    "macro_f1": 1.0,
+    "ball_recall": 1.0
+   },
+   {
+    "macro_f1": 1.0,
+    "ball_recall": 1.0
+   },
+   {
+    "macro_f1": 1.0,
+    "ball_recall": 1.0
+   }
+  ]
+ }
+}

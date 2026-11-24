@@ -1,0 +1,69 @@
+{
+ "protocol": "cross_load",
+ "n_train": 370,
+ "n_test": 200,
+ "test_counts": {
+  "normal": 20,
+  "outer_race": 60,
+  "inner_race": 60,
+  "ball": 60
+ },
+ "models": {
+  "generic_spectrum": [
+   {
+    "macro_f1": 0.958398120162826,
+    "ball_recall": 1.0
+   },
+   {
+    "macro_f1": 0.958398120162826,
+    "ball_recall": 1.0
+   },
+   {
+    "macro_f1": 0.958398120162826,
+    "ball_recall": 1.0
+   }
+  ],
+  "generic_envelope": [
+   {
+    "macro_f1": 0.6247717250901964,
+    "ball_recall": 0.9666666666666667
+   },
+   {
+    "macro_f1": 0.6247717250901964,
+    "ball_recall": 0.9666666666666667
+   },
+   {
+    "macro_f1": 0.6247717250901964,
+    "ball_recall": 0.9666666666666667
+   }
+  ],
+  "physics_orders": [
+   {
+    "macro_f1": 0.9958330439613863,
+    "ball_recall": 1.0
+   },
+   {
+    "macro_f1": 0.9958330439613863,
+    "ball_recall": 1.0
+   },
+   {
+    "macro_f1": 0.9958330439613863,
+    "ball_recall": 1.0
+   }
+  ],
+  "cnn": [
+   {
+    "macro_f1": 1.0,
+    "ball_recall": 1.0
+   },
+   {
+    "macro_f1": 0.9581473214285714,
+    "ball_recall": 1.0
+   },
+   {
+    "macro_f1": 0.9874252672315265,
+    "ball_recall": 1.0
+   }
+  ]
+ }
+}
